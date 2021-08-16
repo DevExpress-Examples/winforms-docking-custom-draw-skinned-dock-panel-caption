@@ -24,7 +24,7 @@ namespace WindowsFormsApplication1
         protected internal MyDockPanel(bool createControlContainer, DockingStyle dock, DockManager dockManager)
             : base(createControlContainer, dock, dockManager)
         {
-            
+            DockLayout = new MyDockLayout(dock, this);
         }
 
     }
