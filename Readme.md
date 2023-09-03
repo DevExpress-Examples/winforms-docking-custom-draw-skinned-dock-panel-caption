@@ -4,7 +4,20 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 <!-- default file list -->
-*Files to look at*:
+
+<!-- default file list end -->
+# WinForms Docking - How to custom paint skinned dock panel captions
+
+> **Important**
+>
+> This example uses internal APIs that may changed in newer versions.
+
+This example demonstrates how to implement the `CustomDrawDockPanelCaption` event to paint dock panel captions.
+
+![WinForms Docking - How to custom paint skinned dock panel captions](https://raw.githubusercontent.com/DevExpress-Examples/how-to-implement-the-custom-draw-functionality-for-skinned-dock-panels-e2502/16.1.4%2B/media/winforms-dockmanager-draw-panel-caption.png)
+
+
+## Files to Review
 
 * [Form1.cs](./CS/E2502/Form1.cs) (VB: [Form1.vb](./VB/E2502/Form1.vb))
 * [MyCustomDrawArgs.cs](./CS/E2502/MyDockManager/MyCustomDrawArgs.cs) (VB: [MyCustomDrawArgs.vb](./VB/E2502/MyDockManager/MyCustomDrawArgs.vb))
@@ -14,12 +27,3 @@
 * [MyDockPanel.cs](./CS/E2502/MyDockManager/MyDockPanel.cs) (VB: [MyDockPanel.vb](./VB/E2502/MyDockManager/MyDockPanel.vb))
 * [MyPaintStyle.cs](./CS/E2502/MyDockManager/MyPaintStyle.cs) (VB: [MyPaintStyle.vb](./VB/E2502/MyDockManager/MyPaintStyle.vb))
 * [MyWindowSkinPainter.cs](./CS/E2502/MyDockManager/MyWindowSkinPainter.cs) (VB: [MyWindowSkinPainter.vb](./VB/E2502/MyDockManager/MyWindowSkinPainter.vb))
-<!-- default file list end -->
-# How to implement the custom draw functionality for skinned dock panels
-
-
-<p>This example demonstrates how you can implement the CustomDrawDockPanelCaption event, to manually paint dock panels captions.</p>
-
-<br/>
-
-
