@@ -10,7 +10,7 @@
 
 > **Important**
 >
-> This example uses internal APIs that may changed in newer versions.
+> This example uses internal APIs that may change in newer versions.
 
 This example demonstrates how to implement the `CustomDrawDockPanelCaption` event to paint dock panel captions.
 
